@@ -1,6 +1,26 @@
-[package]
-name = "vx"
-version = "0.0.1"
-edition = "2021"
-
 [dependencies]
+[package]
+authors = [
+  "siwilizhao <siwilizhao@gmail.com>",
+] 
+categories = [
+  "text-processing",
+  "multimedia",
+  "parser-implementations",
+] 
+description = "vx is an upcoming feature library" 
+documentation = "https://docs.rs/vx" 
+edition = "2021" 
+keywords = ["vx", "mankong", "siwi"] 
+license = "Apache-2.0" 
+name = "vx" 
+publish = true # no accidents while in dev
+readme = "README.md" 
+repository = "https://github.com/i-rs/vx" 
+version = "0.0.5" 
+
+include = [
+  "Cargo.toml",
+  "LICENSE",
+  "src/**/*", #"build.rs",
+]
